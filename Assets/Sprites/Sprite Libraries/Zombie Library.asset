@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf7c34a0dc4e6348bea04faa70406ee, type: 3}
+  m_Name: Zombie Library
+  m_EditorClassIdentifier: 
+  m_Labels:
+  - m_Name: Leg
+    m_Hash: 1302185647
+    m_CategoryList:
+    - m_Name: Blue
+      m_Hash: 1040475530
+      m_Sprite: {fileID: 731047416418265802, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+    - m_Name: Green
+      m_Hash: 291225893
+      m_Sprite: {fileID: -9215886535318063031, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+    - m_Name: Red
+      m_Hash: -1037297297
+      m_Sprite: {fileID: 4356166927698799278, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+    - m_Name: Orange
+      m_Hash: 443135054
+      m_Sprite: {fileID: -8852621373662540513, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+    - m_Name: Brown
+      m_Hash: -1395082416
+      m_Sprite: {fileID: 1749431915340145634, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+    - m_Name: Gray
+      m_Hash: 634228952
+      m_Sprite: {fileID: 1443321084267983593, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+    - m_Name: White
+      m_Hash: -2096176480
+      m_Sprite: {fileID: -3767422490714431064, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+    - m_Name: Chamani
+      m_Hash: -416058804
+      m_Sprite: {fileID: 6397457046279880635, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+  - m_Name: Head
+    m_Hash: 130111906
+    m_CategoryList:
+    - m_Name: Zombie
+      m_Hash: 206380807
+      m_Sprite: {fileID: 7801448135359168865, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+    - m_Name: Mummy
+      m_Hash: -2094678198
+      m_Sprite: {fileID: -3716239848720131122, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+    - m_Name: Frank
+      m_Hash: -1196659443
+      m_Sprite: {fileID: -4832447028861525513, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+  - m_Name: Ear
+    m_Hash: 1274928335
+    m_CategoryList:
+    - m_Name: Blue
+      m_Hash: 1040475530
+      m_Sprite: {fileID: -8811770734821702463, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+    - m_Name: Green
+      m_Hash: 291225893
+      m_Sprite: {fileID: 9051011988882935487, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+    - m_Name: Brown
+      m_Hash: -1395082416
+      m_Sprite: {fileID: 3622096423376743284, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+  - m_Name: Body
+    m_Hash: 2073732236
+    m_CategoryList:
+    - m_Name: Astronaut
+      m_Hash: -547605434
+      m_Sprite: {fileID: 6061401187607527231, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+    - m_Name: Clown
+      m_Hash: 561951308
+      m_Sprite: {fileID: -6166829242349136190, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+    - m_Name: Constructor
+      m_Hash: -79325714
+      m_Sprite: {fileID: 1348930614312182982, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+    - m_Name: Frankestein
+      m_Hash: -231625005
+      m_Sprite: {fileID: 8047834320515024573, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+    - m_Name: Hunter
+      m_Hash: 1299941715
+      m_Sprite: {fileID: -4064761786790949054, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+    - m_Name: Mobster
+      m_Hash: 773001833
+      m_Sprite: {fileID: -4690536643744756238, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+    - m_Name: Mummy
+      m_Hash: -2094678198
+      m_Sprite: {fileID: 7070529921382999250, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+    - m_Name: Scientist
+      m_Hash: 1669777602
+      m_Sprite: {fileID: -1916680357014632247, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+    - m_Name: Soldier
+      m_Hash: 2146571422
+      m_Sprite: {fileID: -5109156521970905345, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+    - m_Name: Zombie
+      m_Hash: 206380807
+      m_Sprite: {fileID: 797991815063087036, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+  - m_Name: Zombie Hand
+    m_Hash: -816176910
+    m_CategoryList:
+    - m_Name: Blue
+      m_Hash: 1040475530
+      m_Sprite: {fileID: 2824154423668108179, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+    - m_Name: Green
+      m_Hash: 291225893
+      m_Sprite: {fileID: -8829919972520151227, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}

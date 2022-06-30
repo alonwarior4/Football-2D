@@ -1,0 +1,72 @@
+version: 2
+importPivots: 1
+tpsheetFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/Koche pixeli.tpsheet
+- Assets/Sprites/Characters.tpsheet
+- Assets/Sprites/Smoke.tpsheet
+- Assets/Sprites/Sprite Sheets/Ambulance.tpsheet
+- Assets/Sprites/Sprite Sheets/Buildings.tpsheet
+- Assets/Sprites/Sprite Sheets/DTCar.tpsheet
+- Assets/Sprites/Sprite Sheets/Elements Final.tpsheet
+- Assets/Sprites/Sprite Sheets/EnvironmentObject.tpsheet
+- Assets/Sprites/Sprite Sheets/Gameplay Ui/GPUISheet.tpsheet
+- Assets/Sprites/Sprite Sheets/green peykan.tpsheet
+- Assets/Sprites/Sprite Sheets/Green Street.tpsheet
+- Assets/Sprites/Sprite Sheets/invis Car.tpsheet
+- Assets/Sprites/Sprite Sheets/Neysan.tpsheet
+- Assets/Sprites/Sprite Sheets/Signs.tpsheet
+- Assets/Sprites/Sprite Sheets/Street.tpsheet
+- Assets/Sprites/Sprite Sheets/T_Lights.tpsheet
+- Assets/Sprites/Sprite Sheets/Taxi.tpsheet
+- Assets/Sprites/Sprite Sheets/UiMenu.tpsheet
+- Assets/Sprites/Sprite Sheets/white peykan.tpsheet
+- Assets/Sprites/UI/Lvl Select/Lvl Nums.tpsheet
+- Assets/Sprites/UI/Win Lose/WinLoseSheet.tpsheet
+textureFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/Koche pixeli.png
+- Assets/Sprites/Characters.png
+- Assets/Sprites/Smoke.png
+- Assets/Sprites/Sprite Sheets/Ambulance.png
+- Assets/Sprites/Sprite Sheets/Buildings.png
+- Assets/Sprites/Sprite Sheets/DTCar.png
+- Assets/Sprites/Sprite Sheets/Elements Final.png
+- Assets/Sprites/Sprite Sheets/EnvironmentObject.png
+- Assets/Sprites/Sprite Sheets/Gameplay Ui/GPUISheet.png
+- Assets/Sprites/Sprite Sheets/green peykan.png
+- Assets/Sprites/Sprite Sheets/Green Street.png
+- Assets/Sprites/Sprite Sheets/invis Car.png
+- Assets/Sprites/Sprite Sheets/Neysan.png
+- Assets/Sprites/Sprite Sheets/Signs.png
+- Assets/Sprites/Sprite Sheets/Street.png
+- Assets/Sprites/Sprite Sheets/T_Lights.png
+- Assets/Sprites/Sprite Sheets/Taxi.png
+- Assets/Sprites/Sprite Sheets/UiMenu.png
+- Assets/Sprites/Sprite Sheets/white peykan.png
+- Assets/Sprites/UI/Lvl Select/Lvl Nums.png
+- Assets/Sprites/UI/Win Lose/WinLoseSheet.png
+normalmapFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+enableDebugOutput: 0

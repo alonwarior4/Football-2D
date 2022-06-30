@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf7c34a0dc4e6348bea04faa70406ee, type: 3}
+  m_Name: Range Zombie Library
+  m_EditorClassIdentifier: 
+  m_Labels:
+  - m_Name: Head
+    m_Hash: 130111906
+    m_CategoryList:
+    - m_Name: Astronaut
+      m_Hash: -547605434
+      m_Sprite: {fileID: -6257658233307106247, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+    - m_Name: Construction
+      m_Hash: -996132458
+      m_Sprite: {fileID: -7550255437661200641, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+    - m_Name: Hunter
+      m_Hash: 1299941715
+      m_Sprite: {fileID: 810992119433112897, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+    - m_Name: Mobster
+      m_Hash: 773001833
+      m_Sprite: {fileID: -1796213769999910900, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+    - m_Name: Soldier
+      m_Hash: 2146571422
+      m_Sprite: {fileID: 7486876982289752488, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+  - m_Name: Body
+    m_Hash: 2073732236
+    m_CategoryList:
+    - m_Name: Astronaut
+      m_Hash: -547605434
+      m_Sprite: {fileID: 6061401187607527231, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+    - m_Name: Construction
+      m_Hash: -996132458
+      m_Sprite: {fileID: 1348930614312182982, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+    - m_Name: Hunter
+      m_Hash: 1299941715
+      m_Sprite: {fileID: -4064761786790949054, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+    - m_Name: Mobster
+      m_Hash: 773001833
+      m_Sprite: {fileID: -4690536643744756238, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+    - m_Name: Soldier
+      m_Hash: 2146571422
+      m_Sprite: {fileID: -5109156521970905345, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+  - m_Name: Front Hand
+    m_Hash: -1956699373
+    m_CategoryList:
+    - m_Name: Astronaut
+      m_Hash: -547605434
+      m_Sprite: {fileID: 5491013078705766069, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+    - m_Name: Clown
+      m_Hash: 561951308
+      m_Sprite: {fileID: 4809712633650665005, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+    - m_Name: Construction
+      m_Hash: -996132458
+      m_Sprite: {fileID: -1962436551015975838, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+    - m_Name: Scientist
+      m_Hash: 1669777602
+      m_Sprite: {fileID: 477539461589592343, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+  - m_Name: Back Arm
+    m_Hash: -1128716200
+    m_CategoryList:
+    - m_Name: Clown
+      m_Hash: 561951308
+      m_Sprite: {fileID: 6014772134250888016, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+    - m_Name: Construction
+      m_Hash: -996132458
+      m_Sprite: {fileID: 1743614598703597801, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+    - m_Name: Scientist
+      m_Hash: 1669777602
+      m_Sprite: {fileID: -7772043695487620877, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+  - m_Name: Leg
+    m_Hash: 1302185647
+    m_CategoryList:
+    - m_Name: Astronaut
+      m_Hash: -547605434
+      m_Sprite: {fileID: 4356166927698799278, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+    - m_Name: Clown
+      m_Hash: 561951308
+      m_Sprite: {fileID: -8852621373662540513, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+    - m_Name: Hunter
+      m_Hash: 1299941715
+      m_Sprite: {fileID: 1749431915340145634, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+    - m_Name: Mobster
+      m_Hash: 773001833
+      m_Sprite: {fileID: 1443321084267983593, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+    - m_Name: Soldier
+      m_Hash: 2146571422
+      m_Sprite: {fileID: 6397457046279880635, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}
+    - m_Name: Construction
+      m_Hash: -996132458
+      m_Sprite: {fileID: 731047416418265802, guid: 17c7555cca2039f4c9393fc65b41f82f, type: 3}

@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4468864918465962583
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6107695161359591426}
+  - component: {fileID: 3741399419968134659}
+  - component: {fileID: 6750755504913122834}
+  - component: {fileID: 4857736014762512074}
+  m_Layer: 0
+  m_Name: Network Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6107695161359591426
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4468864918465962583}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3741399419968134659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4468864918465962583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a30e88ff0ebf874e8e375d4a28e1e8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dontDestroyOnLoad: 1
+  runInBackground: 1
+  autoStartServerBuild: 1
+  serverTickRate: 30
+  offlineScene: Assets/Scenes/Lobby Scene.unity
+  onlineScene: 
+  transport: {fileID: 6750755504913122834}
+  networkAddress: localhost
+  maxConnections: 4
+  authenticator: {fileID: 0}
+  playerPrefab: {fileID: 5182261107381579043, guid: 636e8aa562e1aee4e8643b144018a8eb, type: 3}
+  autoCreatePlayer: 1
+  playerSpawnMethod: 0
+  spawnPrefabs:
+  - {fileID: 3769820575524190918, guid: f475f6cee904c4d4a95e9cd7e60edbdc, type: 3}
+  - {fileID: 4262390001822034507, guid: 6168a4db21152dc4a9c2dff07a58a20c, type: 3}
+  - {fileID: 1909145647770614911, guid: e40772959bf4f4047b757a31bf2903fb, type: 3}
+  - {fileID: 7094595291257022879, guid: b7aacc2e3c5850f4ca716e3ad08020f2, type: 3}
+  - {fileID: 8373144019929439943, guid: fdadd5df9f563ea428c090c3366ab7b4, type: 3}
+  minPlayerCount: 2
+  roomLobbyPrefab: {fileID: 8070210391039097050, guid: f475f6cee904c4d4a95e9cd7e60edbdc, type: 3}
+  zombiePrefab: {fileID: 8373144019929439942, guid: fdadd5df9f563ea428c090c3366ab7b4, type: 3}
+  humanPrefab: {fileID: 7094595291257022870, guid: b7aacc2e3c5850f4ca716e3ad08020f2, type: 3}
+  ballPref: {fileID: 2294254074001600494, guid: 6168a4db21152dc4a9c2dff07a58a20c, type: 3}
+  scoreManagerPref: {fileID: 1909145647770614904, guid: e40772959bf4f4047b757a31bf2903fb, type: 3}
+  leftPoses:
+  - {x: -3, y: -2.3}
+  - {x: -4.5, y: -2.3}
+  rightPoses:
+  - {x: 3, y: -2.3}
+  - {x: 4.5, y: -2.3}
+  roomPlayers: []
+  gamePlayers: []
+  lobbyScene: Lobby Scene
+  gamePlayScene: Gameplay Scene
+--- !u!114 &6750755504913122834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4468864918465962583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b0fecffa3f624585964b0d0eb21b18e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Port: 7777
+  DualMode: 1
+  NoDelay: 1
+  Interval: 10
+  Timeout: 10000
+  FastResend: 2
+  CongestionWindow: 0
+  SendWindowSize: 4096
+  ReceiveWindowSize: 4096
+  MaxRetransmit: 40
+  NonAlloc: 1
+  MaximizeSendReceiveBuffersToOSLimit: 1
+  ReliableMaxMessageSize: 298449
+  UnreliableMaxMessageSize: 1199
+  debugLog: 0
+  statisticsGUI: 0
+  statisticsLog: 0
+--- !u!114 &4857736014762512074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4468864918465962583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7d6bed37a0c0714692fafa27557dfe1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secretHandshake: 6017695173231643487
+  serverBroadcastListenPort: 47777
+  enableActiveDiscovery: 1
+  ActiveDiscoveryInterval: 3
+  OnServerFound:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: ServerListPanel, Assembly-CSharp
+        m_MethodName: HandleOnServerFound
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  transport: {fileID: 6750755504913122834}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Zombie Melee New
+  m_Controller: {fileID: 9100000, guid: 293b3b5732a8eb048a89fae50ac58aa0, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 749a02599db18bf42a803d2c98623d57, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 24c452f9942e0c04284b83aa155d8831, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 5b3db3081ff4edc4f852e8fdfeb35a80, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 19ab090cf9134ef41aa1a834f2772fc2, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 263bcd93167a6f847a966d23e3b5f812, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 285884e80c3b13b47be5978262fcb053, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: fa74c61d4ea57c840b1fb8c919af1cc4, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 750de8be828e9fc498b54348717c9cd0, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 37de4b220080588429f05ffd503e7911, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 37de4b220080588429f05ffd503e7911, type: 2}

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49bd6bd328931ca4380d6b17612771ad, type: 3}
+  m_Name: Audio Clip Configs
+  m_EditorClassIdentifier: 
+  fireAmbient_Vol: 0.5
+  suctionDeviceActivate_Vol: 1
+  boxBreak_Vol: 0.35
+  boxExplosion_Vol: 1
+  glassBreak_Vol: 1
+  gasExplosion_Vol: 0.3
+  ropeTear_Vol: 0.5
+  normalDoorOpen_Vol: 0.5
+  doorTaghSound_Vol: 0.5
+  buttonHit_Vol: 1
+  concreteWallExplode_Vol: 1
+  wreckballCollision_Vol: 0.5
+  bulletWallHit_Cfg:
+    volume: 0.5
+    chance: 70
+  bulletFullRicochet_Cfg:
+    volume: 0.2
+    chance: 30
+  bloodSplash_Vol: 1
+  zombieCanDrop_Vol: 0.5
+  playerStartJump_Vol: 0.3
+  playerEndJumpGround_Vol: 0.3
+  enemyPistolShoot_Vol: 1
+  enemyAssualtSingleShoot_Vol: 1
+  zombieDeath_Vol: 0.2
+  humanDeath_Vol: 0.2
+  enemyBodyDamage_Vol: 0.5
+  zombieMeleeAttack_Vol: 0.2
